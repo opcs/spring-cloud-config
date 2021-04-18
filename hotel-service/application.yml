@@ -1,10 +1,6 @@
-server:
- port: 6060
- 
+
 # Application name will be used as service-id when registered with eureka
-Spring:
- application:
-  name: hotel-service
+spring:
  h2: 
   console:
    enabled: true
